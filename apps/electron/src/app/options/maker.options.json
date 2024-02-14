@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../../../node_modules/nx-electron/src/validation/maker.schema.json",
+  "productName": "HairyBear",
+  "copyright": "Copyright © 2024 JunHong Peng",
+  "electronCompile": false,
+  "npmRebuild": false,
+  "asar": true,
+  "dmg": {
+    "icon": "apps/electron/src/assets/logo.icns"
+  },
+  "mac": {
+    "icon": "apps/electron/src/assets/logo.icns"
+  }
+}

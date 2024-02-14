@@ -1,1 +1,67 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: black; */
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+canvas {
+    background: transparent;
+}
+
+.app-wrapper {
+    width: 360px;
+    height: 400px;
+    /* border: 6px solid white; */
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.app-wrapper.hidden {
+   width: 0 !important;
+   border: 0 !important;
+}
+
+.canvas-wrapper{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.menu-wrapper {
+    padding-right: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 100%;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.menu-wrapper .ant-menu.ant-menu-root {        
+    border: none;
+}
+
+.logo-wrapper {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}

@@ -1,0 +1,22 @@
+{
+  "/api": {
+    "target": "http://localhost:3000",
+    "secure": false
+  },
+  "/frontend-hairybear-app-api": {
+    "target": "http://localhost:3000",
+    "secure": false
+  },
+  "/frontend-frontend-api": {
+    "target": "http://localhost:3000",
+    "secure": false
+  },
+  "/electron-electron-api": {
+    "target": "http://localhost:3000",
+    "secure": false
+  },
+  "/electron-api": {
+    "target": "http://localhost:3000",
+    "secure": false
+  }
+}
