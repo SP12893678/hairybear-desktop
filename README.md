@@ -1,9 +1,9 @@
 # HairyBear Desktop App
 
-## Start the app
-
 https://github.com/SP12893678/hairybear-desktop/assets/36910625/2489abe0-e0a8-4eda-a650-d2299530c98e
 
+
+## Start the app
 To start the development server run `nx serve frontend`. Open your browser and navigate to http://localhost:4200/. Happy coding!
 ```
 npm run serve
