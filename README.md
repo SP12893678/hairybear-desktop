@@ -2,7 +2,7 @@
 
 ## Start the app
 
-![demo]https://github.com/SP12893678/hairybear-desktop/blob/main/public/demo.mp4
+![demo](https://github.com/SP12893678/hairybear-desktop/blob/main/public/demo.mp4)
 
 To start the development server run `nx serve frontend`. Open your browser and navigate to http://localhost:4200/. Happy coding!
 ```
