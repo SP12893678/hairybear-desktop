@@ -10,5 +10,6 @@
   },
   "mac": {
     "icon": "apps/electron/src/assets/logo.icns"
-  }
+  },
+  "win": {}
 }
