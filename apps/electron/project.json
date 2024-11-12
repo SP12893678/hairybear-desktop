@@ -6,12 +6,16 @@
   "targets": {
     "build": {
       "executor": "nx-electron:build",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/apps/electron",
         "main": "apps/electron/src/main.ts",
         "tsConfig": "apps/electron/tsconfig.app.json",
-        "assets": ["apps/electron/src/assets"]
+        "assets": [
+          "apps/electron/src/assets"
+        ]
       },
       "configurations": {
         "production": {
@@ -55,12 +59,16 @@
     "lint": {
       "executor": "@nx/eslint:lint",
       "options": {
-        "lintFilePatterns": ["apps/electron/**/*.ts"]
+        "lintFilePatterns": [
+          "apps/electron/**/*.ts"
+        ]
       }
     },
     "test": {
       "executor": "@nx/jest:jest",
-      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "outputs": [
+        "{workspaceRoot}/coverage/{projectRoot}"
+      ],
       "options": {
         "jestConfig": "apps/electron/jest.config.ts"
       }

@@ -7,6 +7,7 @@
     "build": "nx run-many --target=build",
     "package": "nx run electron:package",
     "make": "nx run electron:make",
+    "make:win": "nx run electron:make:win",
     "postinstall": "electron-builder install-app-deps && electron-builder install-app-deps && electron-builder install-app-deps && electron-builder install-app-deps && electron-builder install-app-deps"
   },
   "private": true,

@@ -11,5 +11,12 @@
   "mac": {
     "icon": "apps/electron/src/assets/logo.icns"
   },
-  "win": {}
+  "win": {
+    "target": "appx",
+    "icon": "apps/electron/src/assets/logo.icns"
+  },
+  "appx": {
+    "displayName": "HairyBear App",
+    "backgroundColor": "transparent"
+  }
 }
