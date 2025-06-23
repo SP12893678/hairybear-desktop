@@ -28,7 +28,23 @@ export type ActionName =
   | 'sitting-pose'
   | 'walking'
   | 'weaving'
-  | 'cheering';
+  | 'cheering'
+  | 'crying'
+  | 'bowing'
+  | 'noding'
+  | 'head-spinning'
+  | 'welcome'
+  | 'clapping'
+  | 'climbing'
+  | 'run-away'
+  | 'praying'
+  | 'fall-down'
+  | 'looking-right'
+  | 'laying'
+  | 'lying-down'
+  | 'salute'
+  | 'melee-attack'
+  | 'heavy-hit';
 
 export const ActionNames: ActionName[] = [
   'hip-hop-dancing',
@@ -39,7 +55,23 @@ export const ActionNames: ActionName[] = [
   'sitting-pose',
   'walking',
   'weaving',
-  'cheering'
+  'cheering',
+  'crying',
+  'bowing',
+  'noding',
+  'head-spinning',
+  'welcome',
+  'clapping',
+  'climbing',
+  'run-away',
+  'praying',
+  'fall-down',
+  'looking-right',
+  'laying',
+  'lying-down',
+  'salute',
+  'melee-attack',
+  'heavy-hit'
 ];
 
 interface GLTFAction extends THREE.AnimationClip {

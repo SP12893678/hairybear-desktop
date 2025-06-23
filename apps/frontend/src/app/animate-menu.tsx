@@ -31,6 +31,23 @@ const items: MenuItem[] = [
     getItem('sitting-pose', 'sitting-pose', <Icon component={ImgSitting} />),
     getItem('walking', 'walking', <Icon component={ImgWalking} />),
     getItem('weaving', 'weaving', <Icon component={ImgWeaving} />),
+    getItem('cheering', 'cheering', <Icon component={ImgWeaving} />),
+    getItem('crying', 'crying', <Icon component={ImgWeaving} />),
+    getItem('bowing', 'bowing', <Icon component={ImgWeaving} />),
+    getItem('noding', 'noding', <Icon component={ImgWeaving} />),
+    getItem('head-spinning', 'head-spinning', <Icon component={ImgWeaving} />),
+    getItem('welcome', 'welcome', <Icon component={ImgWeaving} />),
+    getItem('clapping', 'clapping', <Icon component={ImgWeaving} />),
+    getItem('climbing', 'climbing', <Icon component={ImgWeaving} />),
+    getItem('run-away', 'run-away', <Icon component={ImgWeaving} />),
+    getItem('praying', 'praying', <Icon component={ImgWeaving} />),
+    getItem('fall-down', 'fall-down', <Icon component={ImgWeaving} />),
+    getItem('looking-right', 'looking-right', <Icon component={ImgWeaving} />),
+    getItem('laying', 'laying', <Icon component={ImgWeaving} />),
+    getItem('lying-down', 'lying-down', <Icon component={ImgWeaving} />),
+    getItem('salute', 'salute', <Icon component={ImgWeaving} />),
+    getItem('melee-attack', 'melee-attack', <Icon component={ImgWeaving} />),
+    getItem('heavy-hit', 'heavy-hit', <Icon component={ImgWeaving} />),
 ];
 
 interface Props {
