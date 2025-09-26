@@ -48,6 +48,7 @@ const items: MenuItem[] = [
     getItem('salute', 'salute', <Icon component={ImgWeaving} />),
     getItem('melee-attack', 'melee-attack', <Icon component={ImgWeaving} />),
     getItem('heavy-hit', 'heavy-hit', <Icon component={ImgWeaving} />),
+    getItem('look-around', 'look-around', <Icon component={ImgWeaving} />)
 ];
 
 interface Props {

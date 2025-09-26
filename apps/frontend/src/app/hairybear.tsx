@@ -44,7 +44,8 @@ export type ActionName =
   | 'lying-down'
   | 'salute'
   | 'melee-attack'
-  | 'heavy-hit';
+  | 'heavy-hit'
+  | 'look-around';
 
 export const ActionNames: ActionName[] = [
   'hip-hop-dancing',
@@ -71,7 +72,8 @@ export const ActionNames: ActionName[] = [
   'lying-down',
   'salute',
   'melee-attack',
-  'heavy-hit'
+  'heavy-hit',
+  'look-around'
 ];
 
 interface GLTFAction extends THREE.AnimationClip {
