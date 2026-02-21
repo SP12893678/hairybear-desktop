@@ -48,7 +48,21 @@ const items: MenuItem[] = [
     getItem('salute', 'salute', <Icon component={ImgWeaving} />),
     getItem('melee-attack', 'melee-attack', <Icon component={ImgWeaving} />),
     getItem('heavy-hit', 'heavy-hit', <Icon component={ImgWeaving} />),
-    getItem('look-around', 'look-around', <Icon component={ImgWeaving} />)
+    getItem('look-around', 'look-around', <Icon component={ImgWeaving} />),
+    getItem('situp', 'situp', <Icon component={ImgWeaving} />),
+    getItem('soul-spin', 'soul-spin', <Icon component={ImgWeaving} />),
+    getItem('break-dance', 'break-dance', <Icon component={ImgWeaving} />),
+    getItem('swing-dance', 'swing-dance', <Icon component={ImgWeaving} />),
+    getItem('jogging-box', 'jogging-box', <Icon component={ImgWeaving} />),
+    getItem('clown-walk', 'clown-walk', <Icon component={ImgWeaving} />),
+    getItem('jumping-jack', 'jumping-jack', <Icon component={ImgWeaving} />),
+    getItem('strong-gesture', 'strong-gesture', <Icon component={ImgWeaving} />),
+    getItem('dancing', 'dancing', <Icon component={ImgWeaving} />),
+    getItem('praying-down', 'praying-down', <Icon component={ImgWeaving} />),
+    getItem('silly-dancing', 'silly-dancing', <Icon component={ImgWeaving} />),
+    getItem('standing-clap', 'standing-clap', <Icon component={ImgWeaving} />),
+    getItem('sneaking-right', 'sneaking-right', <Icon component={ImgWeaving} />),
+    getItem('standing-torch-run-forward', 'standing-torch-run-forward', <Icon component={ImgWeaving} />),
 ];
 
 interface Props {
